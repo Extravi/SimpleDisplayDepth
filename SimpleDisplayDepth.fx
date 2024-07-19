@@ -6,9 +6,9 @@
 #include "Reshade.fxh"
 
 uniform int DEPTHS <
-    ui_type = "combo";
-    ui_items = "Linear Depth\0Normal Buffer\0";
-    ui_label = "Display Depths";
+	ui_type = "combo";
+	ui_items = "Linear Depth\0Normal Buffer\0";
+	ui_label = "Display Depths";
 > = 0;
 
 uniform float FAR_PLANE <
